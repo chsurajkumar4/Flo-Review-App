@@ -1,0 +1,13 @@
+C:\Users\user\Documents\Visual Studio 2017\projects\transaction review app\transaction review app\obj\Debug\transaction review app.csprojAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2017\projects\transaction review app\transaction review app\obj\Debug\transaction_review_app.Form1.resources
+C:\Users\user\Documents\Visual Studio 2017\projects\transaction review app\transaction review app\obj\Debug\transaction_review_app.Properties.Resources.resources
+C:\Users\user\Documents\Visual Studio 2017\projects\transaction review app\transaction review app\obj\Debug\transaction review app.csproj.GenerateResource.cache
+C:\Users\user\Documents\Visual Studio 2017\projects\transaction review app\transaction review app\obj\Debug\transaction review app.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Visual Studio 2017\projects\transaction review app\transaction review app\bin\Debug\transaction review app.exe.config
+C:\Users\user\Documents\Visual Studio 2017\projects\transaction review app\transaction review app\bin\Debug\transaction review app.exe
+C:\Users\user\Documents\Visual Studio 2017\projects\transaction review app\transaction review app\bin\Debug\transaction review app.pdb
+C:\Users\user\Documents\Visual Studio 2017\projects\transaction review app\transaction review app\bin\Debug\FloSDK.dll
+C:\Users\user\Documents\Visual Studio 2017\projects\transaction review app\transaction review app\bin\Debug\Newtonsoft.Json.dll
+C:\Users\user\Documents\Visual Studio 2017\projects\transaction review app\transaction review app\obj\Debug\transaction review app.csproj.CopyComplete
+C:\Users\user\Documents\Visual Studio 2017\projects\transaction review app\transaction review app\obj\Debug\transaction review app.exe
+C:\Users\user\Documents\Visual Studio 2017\projects\transaction review app\transaction review app\obj\Debug\transaction review app.pdb
