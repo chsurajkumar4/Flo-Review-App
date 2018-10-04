@@ -8,3 +8,4 @@ Flo-Core,Visual Studio along with .net framework installed in it.
 drop down menus for the first option in order to submit reviews.
 ![screenshot 15](https://user-images.githubusercontent.com/39794980/46479436-a5b40000-c80c-11e8-92e4-eca124bb57de.png)
 Drop down menu for the 2nd option for retrieving reviews on the basis of transaction id.
+![screenshot 17](https://user-images.githubusercontent.com/39794980/46479952-d3e60f80-c80d-11e8-8d54-db03893a3c1a.png)
