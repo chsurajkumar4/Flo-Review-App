@@ -37,8 +37,6 @@
             this.reviewbox = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.transaction = new System.Windows.Forms.Label();
-            this.block_no = new System.Windows.Forms.Label();
-            this.blocknobox = new System.Windows.Forms.TextBox();
             this.trans_id = new System.Windows.Forms.Label();
             this.txidbox2 = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
@@ -147,31 +145,11 @@
             this.transaction.Text = "Enter TRANSACTION details";
             this.transaction.Visible = false;
             // 
-            // block_no
-            // 
-            this.block_no.AutoSize = true;
-            this.block_no.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.block_no.Location = new System.Drawing.Point(583, 207);
-            this.block_no.Name = "block_no";
-            this.block_no.Size = new System.Drawing.Size(136, 40);
-            this.block_no.TabIndex = 10;
-            this.block_no.Text = "Block no to be \r\nsearched from";
-            this.block_no.Visible = false;
-            this.block_no.Click += new System.EventHandler(this.label4_Click);
-            // 
-            // blocknobox
-            // 
-            this.blocknobox.Location = new System.Drawing.Point(763, 207);
-            this.blocknobox.Name = "blocknobox";
-            this.blocknobox.Size = new System.Drawing.Size(176, 22);
-            this.blocknobox.TabIndex = 11;
-            this.blocknobox.Visible = false;
-            // 
             // trans_id
             // 
             this.trans_id.AutoSize = true;
             this.trans_id.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.trans_id.Location = new System.Drawing.Point(583, 270);
+            this.trans_id.Location = new System.Drawing.Point(582, 214);
             this.trans_id.Name = "trans_id";
             this.trans_id.Size = new System.Drawing.Size(133, 20);
             this.trans_id.TabIndex = 12;
@@ -180,7 +158,7 @@
             // 
             // txidbox2
             // 
-            this.txidbox2.Location = new System.Drawing.Point(763, 270);
+            this.txidbox2.Location = new System.Drawing.Point(763, 212);
             this.txidbox2.Name = "txidbox2";
             this.txidbox2.Size = new System.Drawing.Size(176, 22);
             this.txidbox2.TabIndex = 15;
@@ -188,7 +166,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(693, 339);
+            this.button2.Location = new System.Drawing.Point(706, 290);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(74, 30);
             this.button2.TabIndex = 16;
@@ -230,7 +208,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(594, 397);
+            this.label2.Location = new System.Drawing.Point(603, 378);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(53, 20);
             this.label2.TabIndex = 20;
@@ -255,6 +233,7 @@
             this.flo_box.Size = new System.Drawing.Size(246, 22);
             this.flo_box.TabIndex = 22;
             this.flo_box.Visible = false;
+            this.flo_box.TextChanged += new System.EventHandler(this.flo_box_TextChanged);
             // 
             // Form1
             // 
@@ -271,8 +250,6 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.txidbox2);
             this.Controls.Add(this.trans_id);
-            this.Controls.Add(this.blocknobox);
-            this.Controls.Add(this.block_no);
             this.Controls.Add(this.transaction);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.reviewbox);
@@ -302,8 +279,6 @@
         private System.Windows.Forms.TextBox reviewbox;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label transaction;
-        private System.Windows.Forms.Label block_no;
-        private System.Windows.Forms.TextBox blocknobox;
         private System.Windows.Forms.Label trans_id;
         private System.Windows.Forms.TextBox txidbox2;
         private System.Windows.Forms.Button button2;

@@ -11,3 +11,14 @@ C:\Users\user\Documents\Visual Studio 2017\projects\transaction review app\trans
 C:\Users\user\Documents\Visual Studio 2017\projects\transaction review app\transaction review app\obj\Debug\transaction review app.csproj.CopyComplete
 C:\Users\user\Documents\Visual Studio 2017\projects\transaction review app\transaction review app\obj\Debug\transaction review app.exe
 C:\Users\user\Documents\Visual Studio 2017\projects\transaction review app\transaction review app\obj\Debug\transaction review app.pdb
+F:\flo\New folder\test2-master\transaction review app\transaction review app\bin\Debug\transaction review app.exe.config
+F:\flo\New folder\test2-master\transaction review app\transaction review app\bin\Debug\transaction review app.exe
+F:\flo\New folder\test2-master\transaction review app\transaction review app\bin\Debug\transaction review app.pdb
+F:\flo\New folder\test2-master\transaction review app\transaction review app\obj\Debug\transaction review app.csprojAssemblyReference.cache
+F:\flo\New folder\test2-master\transaction review app\transaction review app\obj\Debug\transaction_review_app.Form1.resources
+F:\flo\New folder\test2-master\transaction review app\transaction review app\obj\Debug\transaction_review_app.Properties.Resources.resources
+F:\flo\New folder\test2-master\transaction review app\transaction review app\obj\Debug\transaction review app.csproj.GenerateResource.cache
+F:\flo\New folder\test2-master\transaction review app\transaction review app\obj\Debug\transaction review app.csproj.CoreCompileInputs.cache
+F:\flo\New folder\test2-master\transaction review app\transaction review app\obj\Debug\transaction review app.csproj.CopyComplete
+F:\flo\New folder\test2-master\transaction review app\transaction review app\obj\Debug\transaction review app.exe
+F:\flo\New folder\test2-master\transaction review app\transaction review app\obj\Debug\transaction review app.pdb

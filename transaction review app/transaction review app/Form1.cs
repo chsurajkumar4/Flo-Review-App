@@ -104,7 +104,7 @@ namespace transaction_review_app
                 Console.WriteLine("Exception :" + errCode + "-" + errMessage);
                 
 
-                labelmsg.Text = "Error saving details succefully to flo";
+                labelmsg.Text = "INternal server error!!";
                 labelmsg.ForeColor = Color.Red;
                 labelmsg.Visible = true;
                 labelmsg.Visible = true;
@@ -115,7 +115,7 @@ namespace transaction_review_app
             catch (Exception ex1)
             {
                 Console.WriteLine("Exception :" + ex1.ToString());
-                labelmsg.Text = "Error saving details succefully to system";
+                labelmsg.Text = "Error connecting to the server!!";
                 labelmsg.ForeColor = Color.Red;
                 labelmsg.Visible = true;
                 labelmsg.Visible = true;
@@ -148,14 +148,13 @@ namespace transaction_review_app
 
         private void refer_Click(object sender, EventArgs e)
         {
-            block_no.Visible = true;
+            
             trans_id.Visible = true;
-            blocknobox.Visible = true;
+            
             txidbox2.Visible = true;
             transaction.Visible = true;
             button2.Visible = true;
-            flo_label.Visible = true;
-            flo_box.Visible = true;
+          
 
         }
 
@@ -169,7 +168,7 @@ namespace transaction_review_app
             RpcMethods rpc = new RpcMethods(username, password, wallet_url, wallet_port);
             try
             {
-                string block_no = blocknobox.Text;
+                
                 string tx_id2 = txidbox2.Text;
 
                 JObject obj1 = JObject.Parse(rpc.GetRawTransaction(tx_id2));
@@ -205,7 +204,7 @@ namespace transaction_review_app
                 Console.WriteLine("Exception :" + errCode + "-" + errMessage);
 
 
-                label2.Text = "Error saving details succefully to flo";
+                label2.Text = "Internal server error!!";
                 label2.ForeColor = Color.Red;
                 label2.Visible = true;
                 label2.Visible = true;
@@ -216,11 +215,16 @@ namespace transaction_review_app
             catch (Exception ex1)
             {
                 Console.WriteLine("Exception :" + ex1.ToString());
-                label2.Text = "Error saving details succefully to system";
+                label2.Text = "Error connecting to the server!!";
                 label2.ForeColor = Color.Red;
                 label2.Visible = true;
                 label2.Visible = true;
             }
+
+        }
+
+        private void flo_box_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }
