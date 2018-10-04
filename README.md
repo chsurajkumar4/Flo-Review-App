@@ -10,4 +10,4 @@ drop down menus for the first option in order to submit reviews.
 Drop down menu for the 2nd option for retrieving reviews on the basis of transaction id.
 ![screenshot 17](https://user-images.githubusercontent.com/39794980/46479952-d3e60f80-c80d-11e8-8d54-db03893a3c1a.png)
 # Result
-If done with ur review will be saved to the Flo-Blockchain server and if chosen for viewing any review,that particular review will be displayed on the screen
+If done ur review will be saved to the Flo-Blockchain server and if chosen for viewing any review,that particular review will be displayed on the screen
