@@ -3,7 +3,8 @@ This is a flo blockchain based review collecting app along with a minimal amount
 # Requirements
 Flo-Core,Visual Studio along with .net framework installed in it.
 # Guide
-1>> open the app u would find two option,click on any one of them according to ur choices drop down menus will appear. 
+1>>open the TRANSACTION REVIEW APP and then open "transacton review app.sln" file and then run the file... 
+open the app u would find two option,click on any one of them according to ur choices drop down menus will appear. 
 ![screenshot 14](https://user-images.githubusercontent.com/39794980/46479228-3d651e80-c80c-11e8-95c4-6d1f98e2ed28.png)
 drop down menus for the first option in order to submit reviews.
 
