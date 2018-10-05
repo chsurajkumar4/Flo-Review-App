@@ -69,14 +69,14 @@ namespace transaction_review_app
                 
                 string Name = namebox.Text;
                 string Send_to = Send_to_box.Text;
-                string flo_coin = flo_box.Text;
+                
                 string Review = reviewbox.Text;
-                int flocoin = 0;
-                flocoin = Convert.ToInt32(flo_coin);
+                
+                
 
                 string flodata = "Review from:" + Name + "-- " + Review;
 
-                JObject jobj = JObject.Parse(rpc.SendToAddress(Send_to, flocoin, "review purpose", "review purpose", false, false, 1, "UNSET", flodata));
+                JObject jobj = JObject.Parse(rpc.SendToAddress(Send_to, 0.01M, "review purpose", "review purpose", false, false, 1, "UNSET", flodata));
                 if (string.IsNullOrEmpty(jobj["error"].ToString()))
                 {
                     
@@ -142,19 +142,30 @@ namespace transaction_review_app
             Send_to_box.Visible = true;
             reviewbox.Visible = true;
             button1.Visible = true;
-            flo_label.Visible = true;
-            flo_box.Visible = true;
+
+            trans_id.Visible = false;
+            txidbox2.Visible = false;
+            transaction.Visible = false;
+            button2.Visible = false;
+
+
         }
 
         private void refer_Click(object sender, EventArgs e)
         {
             
             trans_id.Visible = true;
-            
             txidbox2.Visible = true;
             transaction.Visible = true;
             button2.Visible = true;
-          
+
+            name.Visible = false;
+            Send_to.Visible = false;
+            review_label.Visible = false;
+            namebox.Visible = false;
+            Send_to_box.Visible = false;
+            reviewbox.Visible = false;
+            button1.Visible = false;
 
         }
 

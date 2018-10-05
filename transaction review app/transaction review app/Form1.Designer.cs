@@ -44,8 +44,6 @@
             this.Send_to_box = new System.Windows.Forms.TextBox();
             this.labelmsg = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.flo_label = new System.Windows.Forms.Label();
-            this.flo_box = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // review
@@ -107,7 +105,7 @@
             // 
             this.review_label.AutoSize = true;
             this.review_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.review_label.Location = new System.Drawing.Point(48, 339);
+            this.review_label.Location = new System.Drawing.Point(52, 313);
             this.review_label.Name = "review_label";
             this.review_label.Size = new System.Drawing.Size(75, 20);
             this.review_label.TabIndex = 6;
@@ -116,7 +114,7 @@
             // 
             // reviewbox
             // 
-            this.reviewbox.Location = new System.Drawing.Point(149, 343);
+            this.reviewbox.Location = new System.Drawing.Point(149, 304);
             this.reviewbox.Multiline = true;
             this.reviewbox.Name = "reviewbox";
             this.reviewbox.Size = new System.Drawing.Size(246, 55);
@@ -125,7 +123,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(227, 404);
+            this.button1.Location = new System.Drawing.Point(225, 378);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 30);
             this.button1.TabIndex = 8;
@@ -215,34 +213,12 @@
             this.label2.Text = "label2";
             this.label2.Visible = false;
             // 
-            // flo_label
-            // 
-            this.flo_label.AutoSize = true;
-            this.flo_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flo_label.Location = new System.Drawing.Point(53, 300);
-            this.flo_label.Name = "flo_label";
-            this.flo_label.Size = new System.Drawing.Size(41, 20);
-            this.flo_label.TabIndex = 21;
-            this.flo_label.Text = "Flo:";
-            this.flo_label.Visible = false;
-            // 
-            // flo_box
-            // 
-            this.flo_box.Location = new System.Drawing.Point(149, 298);
-            this.flo_box.Name = "flo_box";
-            this.flo_box.Size = new System.Drawing.Size(246, 22);
-            this.flo_box.TabIndex = 22;
-            this.flo_box.Visible = false;
-            this.flo_box.TextChanged += new System.EventHandler(this.flo_box_TextChanged);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkOrange;
             this.ClientSize = new System.Drawing.Size(963, 493);
-            this.Controls.Add(this.flo_box);
-            this.Controls.Add(this.flo_label);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.labelmsg);
             this.Controls.Add(this.Send_to_box);
@@ -286,8 +262,6 @@
         private System.Windows.Forms.TextBox Send_to_box;
         private System.Windows.Forms.Label labelmsg;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label flo_label;
-        private System.Windows.Forms.TextBox flo_box;
     }
 }
 
